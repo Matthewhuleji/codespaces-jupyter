@@ -1,0 +1,21 @@
+voter_age = int(input("Enter your age:"))
+voting_age = 18
+
+if voter_age < voting_age:
+print("Your age is " =str(voter_age) + ". You are not eligible to vote")
+else:
+if voter_age >= voting_age:
+print("You age is " + str(voter_age) + ". You are eligible to vote")
+
+
+
+time = input("Enter the period of the day:").lower()
+
+if time =="morning":
+     print("Go to work")
+elif time == "afternoon":
+     print("Take a lunch break")
+elif time == "night"
+     print("Go to bed")
+else:
+     print("Invalid time of the day")
